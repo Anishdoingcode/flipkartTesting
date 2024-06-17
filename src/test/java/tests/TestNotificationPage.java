@@ -12,7 +12,7 @@ import pages.NotificationPage;
 public class TestNotificationPage extends Browser {
 
 	@Test
-	void testValidPin() throws InterruptedException {
+	void testNotifPage() throws InterruptedException {
 		final Logger logger = LogManager.getLogger(TestPincode.class);
 		HomePage home = new HomePage(driver);
 		logger.info("opened homepage");

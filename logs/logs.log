@@ -84,3 +84,15 @@
 [DEBUG] 2024-06-17 18:08:25.412 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 [INFO ] 2024-06-17 18:08:36.658 [main] TestPincode - opened homepage
 [INFO ] 2024-06-17 18:08:39.392 [main] TestPincode - opened customer care page
+[DEBUG] 2024-06-17 22:06:00.134 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-06-17 22:06:00.142 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-06-17 22:06:03.866 [main] TestPincode - item filled in search
+[INFO ] 2024-06-17 22:06:04.072 [main] TestPincode - search results page opened
+[INFO ] 2024-06-17 22:06:07.702 [main] TestPincode - filling pincode:110017
+[DEBUG] 2024-06-17 22:07:32.000 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-06-17 22:07:32.004 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-06-17 22:07:34.301 [main] TestPincode - item filled in search
+[INFO ] 2024-06-17 22:07:34.569 [main] TestPincode - search results page opened
+[INFO ] 2024-06-17 22:07:38.443 [main] TestPincode - filling pincode:110017
+[DEBUG] 2024-06-17 22:08:18.681 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-06-17 22:08:18.687 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels

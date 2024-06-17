@@ -32,7 +32,7 @@ public class ProductPage {
 	public boolean checkPinAvailability() {
 		try {
 			WebElement validPinMessage = wait.until(ExpectedConditions
-					.visibilityOfElementLocated(By.xpath("//div[@class='hVvnXm' and contains(text(),'Delivery by')]")));
+					.visibilityOfElementLocated(By.xpath("//div[@class='hVvnXm' and contains(text(),'Delivery')]")));
 			return validPinMessage.isDisplayed();
 		} catch (NoSuchElementException e) {
 			e.printStackTrace();

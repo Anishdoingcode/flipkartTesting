@@ -35,6 +35,7 @@ public class HomePage {
 		WebElement optionsButton = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[@class='_1TOQfO'])[2]")));
 		optionsButton.click();
+		driver.manage().window().maximize();
 		WebElement notificationOption = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//a[@href='/communication-preferences/push?t=all']")));
 		notificationOption.click();
