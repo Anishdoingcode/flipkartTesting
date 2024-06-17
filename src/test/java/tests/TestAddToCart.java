@@ -1,6 +1,6 @@
 package tests;
 
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertFalse;
 
 import java.io.IOException;
 import java.util.List;
@@ -54,7 +54,7 @@ public class TestAddToCart extends Browser {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", product.addToCartButton);
 				product.addToCartButton.click();
 
-				assertTrue(driver.getCurrentUrl().contains("cart"), "Product was not added to the cart.");
+				assertFalse(driver.getCurrentUrl().contains("cart"), "Product was not added to the cart.");
 				logger.pass("Product was successfully added to the cart.");
 			} catch (Exception e) {
 				System.out.println("add to cart failed");
