@@ -117,3 +117,5 @@
 [INFO ] 2024-06-17 23:28:32.150 [main] TestPincode - opened notification page
 [DEBUG] 2024-06-17 23:31:11.464 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
 [DEBUG] 2024-06-17 23:31:11.468 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-06-17 23:42:02.933 [main] TestPincode - opened homepage
+[INFO ] 2024-06-17 23:42:05.086 [main] TestPincode - opened notification page
