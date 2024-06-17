@@ -8,7 +8,7 @@ import java.util.Map;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -57,12 +57,12 @@ public class TestAddToCart extends Browser {
 				assertTrue(driver.getCurrentUrl().contains("cart"), "Product was not added to the cart.");
 				logger.pass("Product was successfully added to the cart.");
 			} catch (Exception e) {
-			System.out.println("car not working");
+				System.out.println("add to cart failed");
 			}
 		}
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException {
 		System.out.println("hehe");
 		if (result.getStatus() == ITestResult.FAILURE) {

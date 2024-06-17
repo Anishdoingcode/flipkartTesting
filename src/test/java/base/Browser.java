@@ -72,7 +72,7 @@ public class Browser {
 	public void closeBrowser() {
 		if (driver != null) {
 			driver.close();
-//			driver.quit();
+			driver.quit();
 		}
 	}
 }

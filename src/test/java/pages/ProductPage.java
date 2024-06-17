@@ -69,7 +69,7 @@ public class ProductPage {
 		addToCartButton.click();
 	}
 
-	@FindBy(xpath = "//div[@class='ipqd2A']")
+	@FindBy(xpath = "//div[@class='XQDdHH uuhqql']")
 	public WebElement ProdRating;
 
 	public String getProductRating() {

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-17T22:09:49 IST" name="Default suite" finished-at="2024-06-17T22:10:00 IST" duration-ms="10689">
+  <suite started-at="2024-06-17T23:31:05 IST" name="Default suite" finished-at="2024-06-17T23:31:18 IST" duration-ms="13151">
     <groups>
     </groups>
-    <test started-at="2024-06-17T22:09:49 IST" name="Default test" finished-at="2024-06-17T22:10:00 IST" duration-ms="10689">
-      <class name="tests.TestSocialHandles">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TestSocialHandles@4facf68f]" started-at="2024-06-17T22:09:49 IST" name="openBrowser" finished-at="2024-06-17T22:09:55 IST" duration-ms="5109" status="PASS">
+    <test started-at="2024-06-17T23:31:05 IST" name="Default test" finished-at="2024-06-17T23:31:18 IST" duration-ms="13151">
+      <class name="tests.TestProdRating">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TestProdRating@1725dc0f]" started-at="2024-06-17T23:31:05 IST" name="openBrowser" finished-at="2024-06-17T23:31:10 IST" duration-ms="5309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="testXHandle()[pri:2, instance:tests.TestSocialHandles@4facf68f]" started-at="2024-06-17T22:09:55 IST" name="testXHandle" finished-at="2024-06-17T22:10:00 IST" duration-ms="5423" status="PASS">
+        <test-method signature="testProductRating()[pri:0, instance:tests.TestProdRating@1725dc0f]" started-at="2024-06-17T23:31:10 IST" name="testProductRating" finished-at="2024-06-17T23:31:18 IST" duration-ms="7744" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testXHandle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestSocialHandles@4facf68f]" started-at="2024-06-17T22:10:00 IST" name="closeBrowser" finished-at="2024-06-17T22:10:00 IST" duration-ms="130" status="PASS">
+        </test-method> <!-- testProductRating -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestProdRating@1725dc0f]" started-at="2024-06-17T23:31:18 IST" name="closeBrowser" finished-at="2024-06-17T23:31:18 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.TestSocialHandles -->
+      </class> <!-- tests.TestProdRating -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

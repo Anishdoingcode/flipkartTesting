@@ -33,9 +33,10 @@ public class HomePage {
 	public void goToNotification() {
 		driver.manage().window().fullscreen();
 		WebElement optionsButton = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//a[@class='_1TOQfO'])[2]")));
-		optionsButton.click();
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div[@class='H6-NpN'])")));
+		
 		driver.manage().window().maximize();
+		optionsButton.click();
 		WebElement notificationOption = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//a[@href='/communication-preferences/push?t=all']")));
 		notificationOption.click();
